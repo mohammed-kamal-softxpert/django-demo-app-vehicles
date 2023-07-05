@@ -17,5 +17,5 @@ vehicle_detail = VehicleViewSet.as_view({
 urlpatterns = [
     path('', api_root),
     path('vehicles/', vehcile_list, name='vehicle-list'),
-    path('vehicle/<int:pk>/', vehicle_detail, name='vehicle-detail')
+    path('vehicles/<int:pk>/', vehicle_detail, name='vehicle-detail')
 ]
